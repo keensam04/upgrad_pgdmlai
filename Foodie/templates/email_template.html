@@ -1,0 +1,21 @@
+<p>Hello {{user}},</p>
+
+<p>
+	Please find below the details of the top 10 restaurants from your last search.<br>
+	You had asked for restaurants serving {{cuisine}} food in {{location}} with {{budget}} budget.
+</p>
+
+{% for restaurant in restaurants %}
+	<p>
+		<h3><a href={{restaurant.url}}>{{restaurant.name}}</a></h3><br>
+		<img height = "325", width = "450", src={{restaurant.image}}><br>
+		{{restaurant.address}}<br>
+		Average cost for two: INR {{restaurant.average_cost_for_two}}<br>
+		Zomato user rating: {{restaurant.user_rating}}<br>
+	</p><br>
+{% endfor %}
+
+<p>
+	Looking forward to helping you again,<br>
+	Team Foodie
+</p>

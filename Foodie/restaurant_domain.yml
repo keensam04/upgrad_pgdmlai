@@ -1,0 +1,125 @@
+slots:
+  location:
+    type: text
+  lat:
+    type: float
+    min_value: 8.4
+    max_value: 37.6
+  lon:
+    type: float
+    min_value: 68.7
+    max_value: 97.25
+  cuisine:
+    type: text
+  cuisine_id:
+    type: text
+  budget:
+    type: text
+  budget_type:
+    type: text
+  email_address:
+    type: text
+
+entities:
+  - location
+  - cuisine
+  - budget
+  - send_mail
+  - email_address
+
+intents:
+  - greet
+  - gratitude
+  - affirm
+  - deny
+  - goodbye
+  - thankyou
+  - restaurant_search
+  - send_email
+  - irrelevant_intent
+
+templates:
+  utter_greet:
+    - "Hey there! How may I help you"
+    - "Hi, How can I help you!"
+    - "Hey, How may I help you today?"
+    - "Hello, what can I search for you?"
+    - "Hello there, feeling hungry? what can I search for you?"
+  utter_goodbye:
+    - "Good bye for now. I am still listening if you want more exploration :)"
+    - "So, all sorted!. I am still here if you change your mind :)"
+    - "Glad I could help!"
+    - "See you soon if you change your mind :)"
+    - "Looking forward to help you again!"
+  utter_youarewelcome:
+    - "You're welcome"
+    - "My pleasure"
+    - "Any time!"
+  utter_default:
+    - "Sorry, I didn’t understand that"
+    - "Apologies! I did not quite get that. Can you please try again"
+    - "Can you try again, please? "
+    - "What? Didn't catch that? I am still learning.Can you come again?"
+  utter_ask_location:
+    - "In which location?"
+    - "Which location you like?"
+    - "Around which location?"
+    - "Any where near?"
+  utter_wrong_location:
+    - "We are still working to operate in that area. Please try location again."
+    - "Hmm we don't operate there.Please try different location."
+  utter_ask_cuisine: 
+    - text: "What kind of cuisine would you prefer?"
+      buttons:
+      - title: "Chinese"
+        payload: "chinese"
+      - title: "Mexican"
+        payload: "mexican"
+      - title: "Italian"
+        payload: "italian"
+      - title: "American"
+        payload: "american"
+      - title: "South Indian"
+        payload: "south_indian"
+      - title: "North Indian"
+        payload: "north_indian"
+  utter_wrong_cuisine:
+    - text: "I'm afraid I do not understand your cuisine preference. Please try again from the below options"
+  utter_ask_budget: 
+    - text: "What price range are you looking at?"
+      buttons:
+      - title: "Lesser than Rs. 300"
+        payload: "low"
+      - title: "Rs. 300 to 700"
+        payload: "medium"
+      - title: "More than Rs. 700"
+        payload: "high"
+  utter_wrong_budget: 
+    - text: "Oops! Did not quite get the budget info."
+  utter_ask_howcanhelp:
+    - "How can I help you?"
+    - "Eager to help!"
+    - "What do you want me to do?"
+    - "What I can do for you?"
+  utter_ask_sendmail:
+    - text: "Do you want the search results to be e-mailed?"
+  utter_ask_emailaddress:
+    - "Which email address should I send the results to?"
+    - "What is the email address?"
+    - "Please tell me the email address!"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_youarewelcome
+  - utter_default
+  - utter_ask_howcanhelp
+  - utter_ask_location
+  - utter_ask_cuisine
+  - utter_ask_budget
+  - utter_ask_sendmail
+  - utter_ask_emailaddress
+  - action_sendemail
+
+forms:
+  - restaurant_form

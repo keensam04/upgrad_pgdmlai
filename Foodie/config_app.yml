@@ -1,0 +1,11 @@
+gmail:
+  username: foodiemailer@gmail.com
+  password: gavelzgovjoxtayv
+
+zomato:
+  api_key: a41d5dc279267d7b3b720664090430ee
+
+slack:
+  access_token: xoxp-610890028624-610814375781-614177227505-1a7c5856ca5fa2acd993de02e3cf663e
+  bot_access_token: xoxb-610890028624-622661656966-FEdh1I4WRqWPh3uoMV9zloNQ
+  verification_token: ucyCCxWuUPsMgBeliEMrjlV3
