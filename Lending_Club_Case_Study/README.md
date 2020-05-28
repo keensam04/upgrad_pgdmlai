@@ -11,7 +11,8 @@ The data given below contains the information about past loan applicants and whe
 
 In this case study, you will use EDA to understand how **consumer attributes** and **loan attributes** influence the tendency of default.
 
-Figure 1. Loan Data Set
+![Loan_image](Loan_image.png)
+**<p align=center>Figure 1. Loan Data Set</p>**
 
 When a person applies for a loan, there are **two types of decisions** that could be taken by the company:
 1. **Loan accepted**: If the company approves the loan, there are 3 possible scenarios described below:
@@ -32,8 +33,8 @@ In other words, the company wants to understand the **driving factors (or driver
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics (understanding the types of variables and their significance should be enough).
 
 ### Data Understanding
-The dataset contains the complete loan data for all loans issued through the time period 2007 t0 2011.
-The data dictionary describes the meaning of these variables 
+- The [dataset](data/loan.csv) contains the complete loan data for all loans issued through the time period 2007 t0 2011.
+- The [data dictionary](data/Data_Dictionary.xlsx) describes the meaning of these variables 
 
 ### Results Expected
 1. Write all your code in one well-commented Python file; briefly mention the insights and observations from the analysis 
