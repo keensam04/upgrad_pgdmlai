@@ -30,6 +30,7 @@ This repository contains the projects done as a part of ML AI course from UpGrad
 - [Santosh AmbaPrasad](https://www.linkedin.com/in/santoshambaprasad/)
 - [Vivek Dalal](https://www.linkedin.com/in/vivek-d-181b712/) 
 
-# Strict warning against plagiarism
+# :warning: Strict warning against plagiarism
+
 Please remember the **honesty pledge** before trying to copy any part of the code for your assignments
 > I, Mohammad Saman Tamkeen, promise that during the course of this assignment I shall not use unethical and nefarious means in an attempt to defraud the sanctity of the assignment and gain an unfair advantage over my peers. I will adhere to the virtues of truth and honesty. I will honour the IIIT - Bangalore and UpGrad's honour code.
