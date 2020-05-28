@@ -67,7 +67,7 @@ In this project, you will build a chatbot for ‘Foodie’ and then deploy it on
 1. Download the RASA_BASE zip file submitted on the portal and Unzip the  RASA_BASE zip file.
 2. Open terminal and navigate into the folder of RASA_BASE
 3. Execute the command on the terminal - `conda create -n rasa -y python=3.6`
-        This command creates a virtual environment called ‘rasa’ with python 3.6. Execution time - 1 - 1.5 mins. **[See the Special-Instructions -1 below](Special-Instructions)**
+        This command creates a virtual environment called ‘rasa’ with python 3.6. Execution time - 1 - 1.5 mins. **[See the Special-Instructions -1 below](#special-instructions)**
 4. After the successful execution of above command, execute - `source activate rasa`
         This command will activate the new python virtual environment called 'rasa'. You can see the python environment name ‘rasa’ in the bash interpreter command line.
 5. Now execute the command - `make setupbot`
