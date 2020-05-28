@@ -21,7 +21,37 @@ Spark Funds wants to invest where most **other investors are investing**. This p
 ### 2. Where did we get the data from? 
 We have taken real investment data from **crunchbase.com**, so the insights you get may be incredibly useful. For this assignment, we have divided the data into the following files:
 
-You have to use three main data tables for the entire analysis (available for download on the next page):
+You have to use three main data tables for the entire analysis:
+#### 1. Company details
+**companies**: A table with basic data of companies
+
+Description of Companies Table
+| Attribute | Description |
+|-----------|-------------|
+| Permalink | Unique ID of company |
+| name      | Company name |
+| homepage_url | Website URL |
+| category_list | Category/categories to which a company belongs |
+| status | Operational status |
+| country_code | Country Code |
+| state_code | State |
+
+You can find the companies data [here](data/companies.txt).
+
+#### 2. Funding round details: 
+**rounds2**: The most important parameters are explained below:
+
+Description of rounds2 Table
+| Attributes | Description |
+| company_permalink | Unique ID of company |
+| funding_round_permalink | Unique ID of funding round |
+| funding_round_type | Type of funding – venture, angel, private equity etc. |
+| funding_round_code | Round of venture funding (round A, B etc.) |
+| funded_at | Date of funding |
+| raised_amount_usd | Money raised in funding (USD) |
+
+#### 3. Sector Classification:
+**mapping.csv**: This file maps the numerous **category names** in the companies table (such 3D printing, aerospace, agriculture, etc.) to eight broad **sector names**. The purpose is to simplify the analysis into eight sector buckets, rather than trying to analyse hundreds of them.
 
 ### 3. What is Spark Funds’ business objective?
 The business objectives and goals of data analysis are pretty straightforward.
