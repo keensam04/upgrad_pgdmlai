@@ -21,7 +21,8 @@ Spark Funds wants to invest where most **other investors are investing**. This p
 ### 2. Where did we get the data from? 
 We have taken real investment data from **crunchbase.com**, so the insights you get may be incredibly useful. For this assignment, we have divided the data into the following files:
 
-You have to use three main data tables for the entire analysis:
+You have to use three main data tables for the entire analysis (available in [data](data) folder):
+
 #### 1. Company details
 **companies**: A table with basic data of companies
 
