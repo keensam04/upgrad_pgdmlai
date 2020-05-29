@@ -21,7 +21,7 @@ In this project, you need to create the environment and an RL agent that learns 
 
 **<p align=center>Architecture 1</p>**
 
-<div align=center>![architecture2](Q_network2+-+Architecture+2.png)</div>
+![architecture2](Q_network2+-+Architecture+2.png)
 
 **<p align=center>Architecture 2</p>**
 
