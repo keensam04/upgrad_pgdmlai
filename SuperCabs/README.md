@@ -17,11 +17,11 @@ You can view the MDP [here](MDP.pdf). The major simplifying assumptions are also
 
 In this project, you need to create the environment and an RL agent that learns to choose the best request. You need to train your agent using vanilla Deep Q-learning (DQN) only and NOT a double DQN. You have learnt about the two architectures of DQN (shown below) - you are free to choose any of these.
 
-<p align=center>![architecture1](Q_network+-+Architecture+1.png)</p>
+<span align=center>![architecture1](Q_network+-+Architecture+1.png)</span>
 
 **<p align=center>Architecture 1</p>**
 
-<p align=center>![architecture2](Q_network2+-+Architecture+2.png)</p>
+<span align=center>![architecture2](Q_network2+-+Architecture+2.png)</span>
 
 **<p align=center>Architecture 2</p>**
 
