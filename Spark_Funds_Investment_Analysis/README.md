@@ -44,6 +44,7 @@ You can find the companies data [here](data/companies.txt).
 
 Description of rounds2 Table
 | Attributes | Description |
+|------------|-------------|
 | company_permalink | Unique ID of company |
 | funding_round_permalink | Unique ID of funding round |
 | funding_round_type | Type of funding – venture, angel, private equity etc. |
