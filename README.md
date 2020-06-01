@@ -1,4 +1,4 @@
-This repository contains the projects done as a part of ML AI course from UpGrad & IIITB
+This repository contains all the assignments and group case studies done as a part of [Post Graduate Diploma in Machine Learning & Artificial Intelligence course from UpGrad & IIITB](https://www.upgrad.com/data-science-pgd-iiitb/) from September 2018 to September 2019
 
 ## Table of Content
 - **Exploratory Data Analysis**
@@ -26,6 +26,10 @@ This repository contains the projects done as a part of ML AI course from UpGrad
 - [Santosh AmbaPrasad](https://www.linkedin.com/in/santoshambaprasad/)
 - [Vivek Dalal](https://www.linkedin.com/in/vivek-d-181b712/) 
 
-# :warning: Strict warning against plagiarism
+## Certificates
+- [Course 1,2,3](https://www.credential.net/d2c9867d-d87d-4f5b-9ed8-6ef9104cd7e2)
+- [Diploma](https://www.credential.net/53d30d39-065e-49bf-904e-8e5e2693e783)
+
+# :warning: Strict warning against [plagiarism](https://en.wikipedia.org/wiki/Plagiarism) :warning:
 Please remember the **honesty pledge** before trying to copy any part of the code for your assignments
 > I, Mohammad Saman Tamkeen, promise that during the course of this assignment I shall not use unethical and nefarious means in an attempt to defraud the sanctity of the assignment and gain an unfair advantage over my peers. I will adhere to the virtues of truth and honesty. I will honour the IIIT - Bangalore and UpGrad's honour code.
