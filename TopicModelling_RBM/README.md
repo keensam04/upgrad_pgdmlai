@@ -44,7 +44,7 @@ The training process is contrastive divergence. In this assignment, we shall cre
 
 ![contrastive_divergence](contrastive_divergence.png)
 
-Contrastive Divergence
+**<p align=center>Contrastive Divergence</p>**
 
 1. You start with the input batch of data, *v<sub>0</sub>*.
 2. You then calculate *p(h|v<sub>0</sub>) = σ(c<sub>j</sub>+∑<sup>n</sup><sub>i=1</sub>v<sub>i</sub>w<sub>ij</sub>)*.
