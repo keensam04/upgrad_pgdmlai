@@ -21,4 +21,4 @@ Your task is to train a model on the 'train' folder which performs well on the '
 
 To get started with the model building process, you first need to get the data on your storage. 
 
-Download the data from [google drive](https://drive.google.com/file/d/1tHHEuz4TJ6xnxDccRV9OLXLY26_OPGUW/view?usp=sharing)
+Dataset: [kaggle](https://www.kaggle.com/datasets/keensam04/gesture-recognition-data)
