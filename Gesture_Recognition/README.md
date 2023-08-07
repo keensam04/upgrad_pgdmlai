@@ -21,4 +21,5 @@ Your task is to train a model on the 'train' folder which performs well on the '
 
 To get started with the model building process, you first need to get the data on your storage. 
 
-Dataset: [kaggle](https://www.kaggle.com/datasets/keensam04/gesture-recognition-data)
+### Dataset on [kaggle](https://www.kaggle.com/datasets/keensam04/gesture-recognition-data)
+[dataset link](https://kaggle.com/datasets/36eabf6c73251fe0a03ad999978b542f647b4827db64518667ff848eec3f5528)
